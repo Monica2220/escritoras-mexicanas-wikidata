@@ -16,7 +16,7 @@
 | Archivo | Contenido |
 |---|---|
 | `consulta.sparql` | Consulta usada en Wikidata Query Service |
-| `datos_crudos_wikidata.csv` | Resultado original (1 de noviembre de 2026) |
+| `datos_wikidata.csv` | Resultado original (1 de noviembre de 2026) |
 | `limpieza.py` | Script de depuración y asignación de estados |
 | `escritoras_mexicanas_wikidata.csv` | Datos finales usados en Tableau |
 
