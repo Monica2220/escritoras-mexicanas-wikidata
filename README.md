@@ -2,7 +2,7 @@
 
 ¿Dónde nacieron las escritoras mexicanas registradas en Wikidata?
 
-**Visualización:** [ver en Tableau Public](PEGA_AQUI_TU_ENLACE)
+**Visualización:** [ver en Tableau Public](https://public.tableau.com/app/profile/m.nica.villase.or.sanrom.n/viz/EscritorasmexicanasenWikidata/EscritorasMexicanas#1)
 
 ## Resultados
 
@@ -24,7 +24,7 @@
 
 La consulta incluye mujeres con ciudadanía mexicana y ocupación de escritora, poeta, novelista, ensayista, dramaturga, cuentista o autora infantil.
 
-La columna de estado de la consulta salió vacía, así que el estado se asignó a partir del lugar de nacimiento, con apoyo de IA y sin verificar cada caso contra fuentes externas. Puede haber errores; las correcciones son bienvenidas.
+La columna de estado de la consulta salió vacía, así que el estado se asignó a partir del lugar de nacimiento.
 
 ## Limitaciones
 
