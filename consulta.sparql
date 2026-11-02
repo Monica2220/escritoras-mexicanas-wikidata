@@ -1,0 +1,13 @@
+SELECT DISTINCT ?persona ?personaLabel ?lugarLabel ?estadoLabel ?nacimiento ?articulo_es WHERE {
+  VALUES ?ocupacion { wd:Q36180 wd:Q49757 wd:Q6625963 wd:Q11774202 wd:Q214917 wd:Q15949613 wd:Q4853732 }
+  ?persona wdt:P106 ?ocupacion;
+           wdt:P21 wd:Q6581072;
+           wdt:P27 wd:Q96;
+           wdt:P31 wd:Q5.
+  OPTIONAL { ?persona wdt:P569 ?nacimiento. }
+  OPTIONAL { ?persona wdt:P19 ?lugar. }
+  OPTIONAL { ?lugar wdt:P131* ?estado. ?estado wdt:P31 wd:Q327330. }
+  OPTIONAL { ?articulo_es schema:about ?persona;
+             schema:isPartOf <https://es.wikipedia.org/>. }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "es,en". }
+}
